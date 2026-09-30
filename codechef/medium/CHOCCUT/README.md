@@ -54,13 +54,27 @@ No
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T15:36:44.327Z  
+**Submitted:** 2026-09-30T15:41:00.894Z  
 
 ```c_cpp
 #include <stdio.h>
 
 int main() {
 	// your code goes here
+	int t;
+	scanf("%d",&t);
+	while(t--){
+	    int i,j;
+	    scanf("%d %d",&i,&j);
+	    if(i*j==1){
+	        printf("No\n");
+	    }else if(i%2==0|| j%2==0){
+	        printf("Yes\n");
+	    }else{
+	        printf("No\n");
+	    }
+	}
+	return 0;
 
 }
 
