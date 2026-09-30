@@ -54,13 +54,26 @@ Output
 
 ## Solution
 
-**Language:** Python  
+**Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T15:29:52.666Z  
+**Submitted:** 2026-09-30T15:34:01.450Z  
 
-```py
-# cook your dish here
+```c_cpp
+#include <stdio.h>
+
+int main() {
+	// your code goes here
+	int b,h,c;
+	scanf("%d %d %d",&b,&h,&c);
+	int maxSand=b/2;
+	int maxFill=h+c;
+	int res=(maxSand<maxFill)?maxSand:maxFill;
+	printf("%d\n",res);
+	return 0;
+
+}
+
 
 ```
 
