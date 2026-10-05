@@ -77,13 +77,21 @@ Chef has $60$ stars, which is equal to the required $60$ stars.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-05T15:44:53.747Z  
+**Submitted:** 2026-10-05T15:49:43.752Z  
 
 ```c_cpp
 #include <stdio.h>
 
 int main() {
 	// your code goes here
+	int n;
+	scanf("%d",&n);
+	if(n>=60){
+	    printf("YES\n");
+	}else{
+	    printf("NO\n");
+	}
+	return 0;
 
 }
 
