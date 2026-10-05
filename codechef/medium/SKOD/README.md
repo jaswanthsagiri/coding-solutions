@@ -49,20 +49,20 @@ Output
 
 ## Solution
 
-**Language:** c_cpp  
+**Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-05T15:50:58.385Z  
+**Submitted:** 2026-10-05T15:53:30.496Z  
 
-```c_cpp
-#include <stdio.h>
-
-int main() {
-	// your code goes here
-
-}
-
-
+```py
+# cook your dish here
+i=int(input())
+for _ in range(i):
+    m=int(input())
+    arr=list(map(int,input().split()))
+    tot=sum(arr)
+    min_v=min(arr)
+    print(tot-min_v)
 ```
 
 ---
